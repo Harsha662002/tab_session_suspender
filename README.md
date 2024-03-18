@@ -57,7 +57,7 @@ In the project, the last active time of the tabs is stored in an object. We have
 
 - step 3 : Enable the Developer Mode option.
 
-- step 4 : Once the Developer mode is enabled, the option of `Load Unpacked` is Visible.
+- step 4 : Once the Developer mode is enabled, choose the option of `Load Unpacked`.
 
 - step 5 : Choose/Open the entire extension folder from your local directory to add the extension to your extensions list.
 
