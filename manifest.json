@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Suspender",
+  "description": "Suspends browswer tabs which have been inactive for a long time.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": "tab_suspender.png"
+  },
+  "permissions": ["tabs", "idle", "storage", "activeTab"]
+}

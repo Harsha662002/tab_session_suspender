@@ -35,7 +35,7 @@ The idea of the project lies on the fact that browser tabs use the memory and mo
 
 In the project, the last active time of the tabs is stored in an object. We have a inactivity threshold time set at 5 mins. We have functions to check the last active time of each tab based on their ids, check whether a tab is playing audio or video (considered as active tab) and then a main function "checkTabInavtivity" to suspend the inactive tabs. We consider the event Listeners employed like the UI button to ON/OFF, "Set" button, page loads, etc. for the extension. The extension also utilizes the chrome storage to store the tab suspension state.
 
-## Technical implemntaion
+## Technical implementaion
 
 - The first part starts with creating the manifest file which forms the base for every extension.
 - Then, the UI of the extension is developed using HTML, CSS. The UI includes the options of ON/OFF button, set new time.
