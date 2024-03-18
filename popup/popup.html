@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <h1>Tab Suspender</h1>
+      <div class="on_off">
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <div class="current_timer">
+        <p>Current Time: <strong>5 mins</strong></p>
+      </div>
+      <div class="set_new_time">
+        <div class="set_timer_option">
+          <label> Set New Time: </label>
+          <input type="number" placeholder="5" name="new_time" min="1" /> mins
+        </div>
+        <div class="set_button">
+          <button>Set</button>
+        </div>
+      </div>
+      <div class="disclaimer">
+        <p>
+          Note: The default time for the tab suspension is
+          <strong>5 mins</strong> when the extension is turned on.
+        </p>
+      </div>
+    </div>
+    <script src="./popup.js"></script>
+  </body>
+</html>
